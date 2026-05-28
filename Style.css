@@ -1,0 +1,125 @@
+/* reset */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 02px 20px rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 400;
+
+}
+.nav-links a:hover{
+    color: rgb(47, 63, 170);
+}
+.logo a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+/* hero*/
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(135deg,#cede42 0%,#7c3aed 100%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 20px;
+
+}
+.hero-content h1{
+    color: #ffff;
+   font-weight: 800;
+   margin-bottom: 20px;
+
+}
+.hero-content p {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+/*button*/
+.btn-primary{
+    display: inline-block;
+    padding: 14px 36px;
+    background: #ffff;
+    color: rgb(27, 196, 196);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    margin:10px;
+}
+.btn-primary:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) ;
+}
+.card-section{
+    background: #ffff;
+    padding: 100px 60px;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-header h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: black;
+}
+.section-header p {
+    color: #463334;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap=30px;
+    max-width: 1100px;
+    margin=0 auto;
+}
+.card{
+    background: #ffff;
+     border-radius: 20px;
+     padding: 40px 30px;
+     text-align: center;
+     box-shadow: 0 2px 20px rgba(195, 58, 120, 0.1);
+     transition: transform 0.3s,box-shadow 0.3s;
+}
+
+.card-hover{
+    transform:translate(-7px);
+    box-shadow: 0 20px 40px rgba(73, 31,31,0.1);
+}
+.card h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #130c3a;
+    margin-bottom: 12px;
+}
+.card p {
+
+    color p{
+        color :#817e7e;
+        font-size: 1rem;
+        padding: 100px;
+    }
+}
